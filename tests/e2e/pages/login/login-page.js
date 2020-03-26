@@ -18,11 +18,6 @@ LoginPage.prototype = {
     cy.get(this.submitButton).click();
 
     return commonForBanking;
-  },
-
-  print: function() {
-    cy.log('In login page view');
-    return commonForBanking;
   }
 }
 

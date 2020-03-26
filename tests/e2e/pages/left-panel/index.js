@@ -29,10 +29,6 @@ Common.prototype = {
     cy.get(this.withdrawMenuOption).click();
 
     return withdrawView;
-  },
-
-  print: function() {
-    cy.log('In banking account common');
   }
 };
 
